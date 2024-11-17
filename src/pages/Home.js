@@ -1,8 +1,12 @@
 // src/pages/Home.js
 import React from 'react';
 import '../Home.css';  // Make sure to import the CSS
-
+import { useNavigate } from 'react-router-dom';
 const Home = () => {
+  const navigate = useNavigate();
+  const handleStartPrediction = () => {
+    navigate('/prediction');
+  };
   return (
     <div className="home">
       {/* Hero Section with Background Gradient Animation */}
@@ -15,7 +19,7 @@ const Home = () => {
           <p className="home-instructions">
             Navigate to Prediction to get started with crop recommendations.
           </p>
-          <button className="home-button">Start Prediction</button>
+          <button className="home-button" onClick={handleStartPrediction}>Start Prediction</button>
         </div>
       </div>
 

@@ -6,7 +6,7 @@ const CropsPage = () => {
   const cropData = [
     {
       cropName: "Rice",
-      image: "https://via.placeholder.com/300x200?text=Rice",
+      image: "https://cdn.britannica.com/89/140889-050-EC3F00BF/Ripening-heads-rice-Oryza-sativa.jpg",
       description: "Rice is the staple food for over half of the world's population. It grows well in warm and wet conditions.",
       area: "12,000",
       production: "1,500,000",
@@ -15,7 +15,7 @@ const CropsPage = () => {
     },
     {
       cropName: "Maize",
-      image: "https://via.placeholder.com/300x200?text=Maize",
+      image: "https://tracextech.com/wp-content/uploads/2022/03/maize-supply-chain.jpg",
       description: "Maize (corn) is a major cereal grain crop used for food, feed, and industrial products.",
       area: "10,000",
       production: "2,000,000",
@@ -24,7 +24,7 @@ const CropsPage = () => {
     },
     {
       cropName: "Chickpea",
-      image: "https://via.placeholder.com/300x200?text=Chickpea",
+      image: "https://www.haifa-group.com/sites/default/files/chickpeas.jpg",
       description: "Chickpeas are high-protein legumes, commonly used in salads, stews, and making hummus.",
       area: "8,500",
       production: "800,000",
@@ -33,7 +33,7 @@ const CropsPage = () => {
     },
     {
       cropName: "Kidneybeans",
-      image: "https://via.placeholder.com/300x200?text=Kidneybeans",
+      image: "https://c8.alamy.com/comp/2GC24AB/ripe-kidney-bean-growing-on-farmbush-with-bunch-of-podsof-haricot-plant-phaseolus-vulgaris-var-nanus-ripening-in-homemade-gardenorganic-farmin-2GC24AB.jpg",
       description: "Kidney beans are rich in protein and commonly used in salads and soups.",
       area: "7,200",
       production: "1,000,000",

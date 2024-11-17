@@ -1,17 +1,15 @@
-// src/components/Navbar.js
 import React from 'react';
-import { Link } from 'react-router-dom';
-import '../App.css'
-//import './Navbar.css';  // Add some basic styles
+import { NavLink } from 'react-router-dom';  // Use NavLink for active links
+import '../App.css';  // Assuming your styles are here
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/prediction">Prediction</Link></li>
-        <li><Link to="/statistics">Statistics</Link></li>
-        <li><Link to="/crops">Crops</Link></li>
+        <li><NavLink to="/" className="nav-link" activeClassName="active-link">Home</NavLink></li>
+        <li><NavLink to="/prediction" className="nav-link" activeClassName="active-link">Prediction</NavLink></li>
+        <li><NavLink to="/statistics" className="nav-link" activeClassName="active-link">Statistics</NavLink></li>
+        <li><NavLink to="/crops" className="nav-link" activeClassName="active-link">Crops</NavLink></li>
       </ul>
     </nav>
   );
